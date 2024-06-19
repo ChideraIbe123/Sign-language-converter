@@ -1,3 +1,11 @@
+/* App.css */
+
+/* Global styles */
+:root {
+  --neon-blue: #00FFFF;
+  --neon-pink: #FF00FF;
+}
+
 #root {
   max-width: 1280px;
   margin: 0 auto;
@@ -39,4 +47,60 @@
 
 .read-the-docs {
   color: #888;
+}
+
+/* Styles for UploadPage component */
+section {
+  margin-bottom: 2rem;
+  background-color: rgba(30, 30, 30, 0.5);
+  border: 1px solid transparent;
+  border-radius: 1rem;
+  padding: 2rem;
+}
+
+h3 {
+  color: var(--neon-blue);
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+p {
+  color: #fff;
+  font-size: 1rem;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+input[type='email'], textarea {
+  background-color: #101010;
+  border: none;
+  border-bottom: 1px solid #fff;
+  color: #fff;
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  width: 100%;
+  max-width: 400px;
+}
+
+button {
+  background-color: var(--neon-blue);
+  border: none;
+  color: #fff;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 1rem;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: var(--neon-pink);
 }
