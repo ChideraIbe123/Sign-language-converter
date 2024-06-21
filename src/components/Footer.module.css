@@ -1,0 +1,124 @@
+.footer {
+  background: #101010; 
+  color: #fff;
+  padding-bottom: 20px;
+  position: relative;
+  width: 100%;
+  padding-top: 20px;
+}
+
+.footerContent {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footerSection {
+  flex: 1;
+  padding: 10px;
+}
+
+.logoText {
+  font-size: 1.8em;
+  font-weight: bold;
+  color: var(--neon-blue); 
+  text-shadow: 0 0 10px var(--neon-blue), 0 0 20px var(--neon-blue); 
+}
+
+.logoText span {
+  color: var(--neon-pink); 
+  text-shadow: 0 0 10px var(--neon-pink), 0 0 20px var(--neon-pink); 
+}
+
+.contact, .socials {
+  margin: 10px 0;
+}
+
+.contact span, .socials a {
+  display: block;
+  margin: 5px 0;
+  color: var(--neon-purple); 
+  text-shadow: 0 0 10px var(--neon-purple), 0 0 20px var(--neon-purple); 
+}
+
+.socials {
+  display: flex; 
+  align-items: center;
+}
+
+.socials a {
+  font-size: 1.2em;
+  margin-right: 10px;
+  transition: color 0.3s;
+}
+
+.socials a:hover {
+  color: var(--neon-blue); 
+  text-shadow: 0 0 10px var(--neon-blue), 0 0 20px var(--neon-blue); 
+}
+
+.links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.links ul a {
+  color: var(--neon-blue); 
+  text-decoration: none;
+  margin: 10px 0;
+  display: block;
+  transition: color 0.3s;
+  text-shadow: 0 0 10px var(--neon-blue), 0 0 20px var(--neon-blue); 
+}
+
+.links ul a:hover {
+  color: var(--neon-pink); 
+  text-shadow: 0 0 10px var(--neon-pink), 0 0 20px var(--neon-pink); 
+}
+
+.contactForm .textInput {
+  background: #101010; 
+  border: none;
+  border-bottom: 1px solid #fff;
+  color: #fff;
+  margin: 10px 0;
+  padding: 10px;
+  width: 100%;
+}
+
+.contactForm .btn {
+  background: var(--neon-blue); 
+  border: none;
+  color: #fff;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background 0.3s;
+  text-shadow: 0 0 10px var(--neon-blue), 0 0 20px var(--neon-blue); 
+}
+
+.contactForm .btn:hover {
+  background: var(--neon-pink); 
+  text-shadow: 0 0 10px var(--neon-pink), 0 0 20px var(--neon-pink); 
+}
+
+.contactForm .btn i {
+  margin-right: 5px; 
+}
+
+.footerBottom {
+  background: #111; 
+  color: #fff;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  margin-top: 20px;
+}
+
+:root {
+  --neon-blue: #00FFFF;
+  --neon-pink: #FF00FF;
+  --neon-purple: #8A2BE2;
+}
