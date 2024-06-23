@@ -13,6 +13,10 @@ const Footer = () => {
           <div className={styles.contact}>
             <span><i className="fas fa-phone"></i> &nbsp; +1 224 508 0854</span>
             <span><i className="fas fa-envelope"></i> &nbsp; coibe2@illinois.edu</span>
+            <span><i className="fas fa-phone"></i> &nbsp; +1 224 622 4078</span>
+            <span><i className="fas fa-envelope"></i> &nbsp; vrallapalli2@wisc.edu</span>
+            <span><i className="fas fa-phone"></i> &nbsp; +1 331 276 4402</span>
+            <span><i className="fas fa-envelope"></i> &nbsp; mamtanin@msu.edu</span>
           </div>
           <div className={styles.socials}>
             <a href="#"><i className="fab fa-facebook"></i></a>
@@ -38,7 +42,7 @@ const Footer = () => {
       </div>
 
       <div className={styles.footerBottom}>
-        &copy; coibe2@illinois.edu | Designed by Chidera Ibe
+        &copy; Designed by Chidera Ibe, Vishnu Rallapalli, Nikhil Mamtani
       </div>
     </footer>
   );

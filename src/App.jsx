@@ -13,7 +13,7 @@ const App = () => {
     <div>
      <Navbar></Navbar>
      <Hero></Hero>
-     <Explain></Explain>
+
      <div className="white-line-break"></div>
      <Footer></Footer>
     </div>
